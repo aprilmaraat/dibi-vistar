@@ -1,2 +1,48 @@
-<p>login works!</p>
-<button nz-button nzSize="large" nzType="primary">Primary</button>
+<form nz-form class="form-center form-medium">
+  <!-- [formGroup]="validateForm" class="login-form" (ngSubmit)="submitForm()" -->
+  <nz-form-item>
+
+    <nz-form-control>
+      <nz-input-group>
+        <input nz-input
+          type="text"
+          placeholder="Username" />
+      </nz-input-group>
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-control>
+    <nz-input-group>
+      <input nz-input
+        type="password"
+        placeholder="Password" />
+    </nz-input-group>
+  </nz-form-control>
+
+  <nz-form-item>
+    <nz-form-control>
+      <nz-input-group>
+        <label nz-checkbox>
+          <span>Remember me</span>
+        </label>
+      </nz-input-group>
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-control>
+    <nz-input-group>
+      <button nz-button
+        [nzType]="'primary'"
+        [nzSize]="'large'">
+        <span>Sign In</span>
+      </button>
+
+      <button nz-button
+        [nzType]="'default'"
+        [nzSize]="'large'">
+        <span>Cancel</span>
+      </button>
+    </nz-input-group>
+  </nz-form-control>
+
+</form>

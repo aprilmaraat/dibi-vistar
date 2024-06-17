@@ -70,7 +70,7 @@ import { NzUploadModule } from 'ng-zorro-antd/upload';
 import { NzResizableModule } from 'ng-zorro-antd/resizable';
 import { NzPipesModule } from 'ng-zorro-antd/pipes';
 import { NzCodeEditorModule } from 'ng-zorro-antd/code-editor';
-import { NzGraphModule } from 'ng-zorro-antd/graph';
+// import { NzGraphModule } from 'ng-zorro-antd/graph';
 import { NzSpaceModule } from 'ng-zorro-antd/space';
 
 import {IconsProviderModule} from './icons-provider.module';
@@ -148,7 +148,7 @@ import {IconsProviderModule} from './icons-provider.module';
         NzResizableModule,
         NzPipesModule,
         NzCodeEditorModule,
-        NzGraphModule,
+        // NzGraphModule,
         NzSpaceModule,
         IconsProviderModule,
         NzPageHeaderModule
